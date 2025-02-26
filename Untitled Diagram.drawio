@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Page-1" id="r2zHQtDlIGpgURy52Ch-">
-    <mxGraphModel dx="3119" dy="2569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="1514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,9 @@
         </mxCell>
         <mxCell id="FfKgcZVSmkm0cXNTBG7V-33" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="4420" y="430" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-34" value="The best way to handle irregular shapes is to draw a closed spline around the perimiter and fil it with a proc mesh (this also handles angled walls. Use this approach for rooms. Does not support ramps/elevation changes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="910" width="550" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
