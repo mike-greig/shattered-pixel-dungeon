@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Page-1" id="r2zHQtDlIGpgURy52Ch-">
-    <mxGraphModel>
+    <mxGraphModel dx="3119" dy="2569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="750" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="120" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-5" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="860" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-7" value="&lt;div&gt;Calculate Distance between center and Left wall&lt;/div&gt;&lt;div&gt;Subtract half the width of the floor spline mesh&lt;/div&gt;&lt;div&gt;This is the space needed to fill&lt;/div&gt;&lt;div&gt;Create a new spline at half this distance from the ledt wall along the Y axis&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="940" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-8" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-9" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="20" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="60" width="750" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="60" width="120" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-12" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="880" width="750" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-13" value="Calc the distance from right wall to left and scale the floor spline mesh and its UVs to fit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="960" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-14" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="640" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-16" value="" style="endArrow=none;html=1;rounded=0;fillColor=#a20025;strokeColor=#6F0000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="930" as="sourcePoint" />
+            <mxPoint x="-70" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-17" value="" style="endArrow=none;html=1;rounded=0;fillColor=#a20025;strokeColor=#6F0000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" as="sourcePoint" />
+            <mxPoint x="-30" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="20" width="750" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="20" width="120" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-20" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="840" width="750" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-21" value="Calc the distance from right wall to left and scale the floor spline mesh and its UVs to fit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="920" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-22" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="600" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-23" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="110" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3180" y="490" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-25" value="" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="3900" y="-320" width="750" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="-320" width="120" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-27" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="800" width="750" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-28" value="Calc the distance from right wall to left and scale the floor spline mesh and its UVs to fit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3830" y="880" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-29" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="260" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-30" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3670" y="-320" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-31" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="4650" y="190" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-32" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="4160" y="-550" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FfKgcZVSmkm0cXNTBG7V-33" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="4420" y="430" width="230" height="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
